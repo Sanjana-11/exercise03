@@ -18,7 +18,7 @@ class Browser {
 	}
 
 	int getTabsCountValue() {
-		int newTabsCountValue = tabsCountValue.intValue();
+		int newTabsCountValue = tabsCountValue;
 		return newTabsCountValue;
 	}
 }
